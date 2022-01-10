@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_tgtimur">
+
+    <fragment
+        android:id="@+id/nav_tgselatan"
+        android:name="com.mfauzimaksum.myuas.Fragment.ProfileFragment"
+        android:label="tegalselatan"
+        tools:layout="@layout/fragment_tgselatan" />
+    <fragment
+        android:id="@+id/nav_tgtimur"
+        android:name="com.mfauzimaksum.myuas.Fragment.MessageFragment"
+        android:label="tegaltimur"
+        tools:layout="@layout/fragment_tgtimur" />
+    <activity
+        android:id="@+id/nav_barat"
+        android:name="com.mfauzimaksum.myuas.kelas_activity.daftar_hadirA"
+        android:label="tegalbarat"
+        tools:layout="@layout/activity_tgbarat" />
+
+</navigation>
